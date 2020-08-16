@@ -1,13 +1,13 @@
-import './index.less';
+//import './index.less';
 import Icon, { createFromIconfontCN } from '@ant-design/icons';
 import { Menu } from 'antd';
 import React, { useEffect, useState, useRef, useMemo } from 'react';
 import classNames from 'classnames';
-import useMergedState from 'rc-util/lib/hooks/useMergedState';
-import { isUrl, isImg } from '@ant-design/pro-utils';
+import useMergedState from 'rc-util/es/hooks/useMergedState';
+import { isUrl, isImg } from '@toneb/pro-utils';
 
-import { MenuMode, MenuProps } from 'antd/lib/menu';
-import { MenuTheme } from 'antd/lib/menu/MenuContext';
+import { MenuMode, MenuProps } from 'antd/es/menu';
+import { MenuTheme } from 'antd/es/menu/MenuContext';
 import defaultSettings, { PureSettings } from '../defaultSettings';
 import { getSelectedMenuKeys } from './SiderMenuUtils';
 import { getOpenKeysFromMenuData } from '../utils/utils';

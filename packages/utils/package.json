@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-utils",
-  "version": "0.0.5",
-  "description": "@ant-design/pro-utils",
+  "name": "@toneb/pro-utils",
+  "version": "0.0.7",
+  "description": "@toneb/pro-utils",
   "keywords": [
     "antd",
     "admin",

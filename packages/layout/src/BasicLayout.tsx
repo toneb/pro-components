@@ -1,14 +1,14 @@
-import './BasicLayout.less';
+//import './BasicLayout.less';
 
 import React, { CSSProperties, useContext, useEffect, useState } from 'react';
-import { BreadcrumbProps as AntdBreadcrumbProps } from 'antd/lib/breadcrumb';
+import { BreadcrumbProps as AntdBreadcrumbProps } from 'antd/es/breadcrumb';
 import { Layout } from 'antd';
 import classNames from 'classnames';
 import warning from 'warning';
-import useMergedState from 'rc-util/lib/hooks/useMergedState';
+import useMergedState from 'rc-util/es/hooks/useMergedState';
 import { stringify } from 'use-json-comparison';
 import useAntdMediaQuery from 'use-media-antd-query';
-import { useDeepCompareEffect, useDocumentTitle, isBrowser } from '@ant-design/pro-utils';
+import { useDeepCompareEffect, useDocumentTitle, isBrowser } from '@toneb/pro-utils';
 import Omit from 'omit.js';
 
 import Header, { HeaderViewProps } from './Header';
@@ -431,7 +431,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
 };
 
 BasicLayout.defaultProps = {
-  logo: 'https://gw.alipayobjects.com/zos/antfincdn/PmY%24TNNDBI/logo.svg',
+  logo: undefined,
   ...defaultSettings,
   prefixCls: 'ant-pro',
   siderWidth: 208,

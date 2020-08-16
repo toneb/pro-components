@@ -1,18 +1,18 @@
-import './index.less';
+//import './index.less';
 import {
   CopyOutlined,
   CloseOutlined,
   NotificationOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
-import { isBrowser } from '@ant-design/pro-utils';
+import { isBrowser } from '@toneb/pro-utils';
 
 import { Button, Divider, Drawer, List, Switch, message, Alert } from 'antd';
 import { createBrowserHistory } from 'history';
 import { stringify, parse } from 'qs';
 import React, { useState, useEffect, useRef } from 'react';
 import CopyToClipboard from 'react-copy-to-clipboard';
-import useMergedState from 'rc-util/lib/hooks/useMergedState';
+import useMergedState from 'rc-util/es/hooks/useMergedState';
 import omit from 'omit.js';
 import defaultSettings, { ProSettings } from '../defaultSettings';
 

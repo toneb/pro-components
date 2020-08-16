@@ -15,7 +15,4 @@ export default {
     importLibToEs: true,
   },
   pkgs: [...headPkgs, ...tailPkgs],
-  extraBabelPlugins: [
-    ['babel-plugin-import', { libraryName: 'antd', libraryDirectory: 'es', style: true }, 'antd'],
-  ],
 };

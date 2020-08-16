@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
-import { FormProps } from 'antd/lib/form/Form';
-import { ConfigContext } from 'antd/lib/config-provider/context';
-import { SizeType } from 'antd/lib/config-provider/SizeContext';
+import { FormProps } from 'antd/es/form/Form';
+import { ConfigContext } from 'antd/es/config-provider/context';
+import { SizeType } from 'antd/es/config-provider/SizeContext';
 import classNames from 'classnames';
 import Label from '../../components/Label';
 import Dropdown from '../../components/Dropdown';

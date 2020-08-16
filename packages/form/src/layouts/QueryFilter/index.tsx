@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Row, Col, Divider } from 'antd';
-import { FormProps } from 'antd/lib/form/Form';
+import { FormProps } from 'antd/es/form/Form';
 import RcResizeObserver from 'rc-resize-observer';
-import useMergedState from 'rc-util/lib/hooks/useMergedState';
+import useMergedState from 'rc-util/es/hooks/useMergedState';
 import BaseForm, { CommonFormProps } from '../../BaseForm';
 import Actions from './Actions';
 

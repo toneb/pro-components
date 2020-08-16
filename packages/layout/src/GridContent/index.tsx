@@ -1,4 +1,4 @@
-import './GridContent.less';
+//import './GridContent.less';
 
 import React, { useContext, CSSProperties } from 'react';
 import classNames from 'classnames';

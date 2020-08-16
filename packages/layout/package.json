@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-layout",
-  "version": "6.4.6",
-  "description": "@ant-design/pro-layout",
+  "name": "@toneb/pro-layout",
+  "version": "6.4.13",
+  "description": "@toneb/pro-layout",
   "keywords": [
     "antd",
     "admin",
@@ -32,7 +32,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
     "@ant-design/pro-provider": "0.0.5",
-    "@ant-design/pro-utils": "0.0.5",
+    "@toneb/pro-utils": "0.0.7",
     "@umijs/route-utils": "^1.0.5",
     "antd": "^4.2.0",
     "classnames": "^2.2.6",

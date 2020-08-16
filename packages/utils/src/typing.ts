@@ -1,4 +1,4 @@
-import { FormInstance } from 'antd/lib/form';
+import { FormInstance } from 'antd/es/form';
 import { ReactNode } from 'react';
 
 export type ProSchemaValueEnumObj = {

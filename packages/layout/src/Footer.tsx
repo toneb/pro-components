@@ -28,7 +28,7 @@ const defaultLinks = [
   },
 ];
 
-const defaultCopyright = '2019 蚂蚁金服体验技术部出品';
+const defaultCopyright = '';
 
 export interface FooterProps {
   links?: WithFalse<

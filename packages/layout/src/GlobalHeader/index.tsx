@@ -1,8 +1,8 @@
-import './index.less';
+//import './index.less';
 
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import { isBrowser } from '@ant-design/pro-utils';
+import { isBrowser } from '@toneb/pro-utils';
 
 import { HeaderViewProps } from '../Header';
 import {

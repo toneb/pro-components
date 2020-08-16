@@ -1,8 +1,8 @@
 import H from 'history';
-import { BreadcrumbProps as AntdBreadcrumbProps } from 'antd/lib/breadcrumb';
+import { BreadcrumbProps as AntdBreadcrumbProps } from 'antd/es/breadcrumb';
 import React from 'react';
 import pathToRegexp from 'path-to-regexp';
-import { isBrowser } from '@ant-design/pro-utils';
+import { isBrowser } from '@toneb/pro-utils';
 
 import { ProSettings } from '../defaultSettings';
 import { MenuDataItem, MessageDescriptor } from '../typings';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form } from 'antd';
-import { FormProps } from 'antd/lib/form/Form';
+import { FormProps } from 'antd/es/form/Form';
 import Group from '../../components/Group';
 import BaseForm, { CommonFormProps } from '../../BaseForm';
 

@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useMemo, ReactNode } from 'react';
 import { Space } from 'antd';
 import classNames from 'classnames';
 
-import './index.less';
+//import './index.less';
 import { RouteContext, RouteContextType } from '../index';
 
 export interface FooterToolbarProps {

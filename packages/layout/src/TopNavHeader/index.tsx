@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import ResizeObserver from 'rc-resize-observer';
 
 import { SiderMenuProps, defaultRenderLogoAndTitle } from '../SiderMenu/SiderMenu';
-import './index.less';
+//import './index.less';
 
 import BaseMenu from '../SiderMenu/BaseMenu';
 import { HeaderViewProps } from '../Header';
